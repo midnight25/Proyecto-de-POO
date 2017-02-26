@@ -28,3 +28,46 @@ body {
 .slider img {
     width: 100%;
 }
+.divi{
+	width: 100%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.imagenesArticulos{
+	border:5px solid #cbcbcb;
+}
+.textoCaracteristicas{
+	text-align: center;
+	font-family: sans-serif;
+}
+.btn-about{
+	border-radius: 50%;
+	background: #337ab7;
+	color: white;
+}
+.btn-about:hover{
+	border-radius: 50%;
+	background: #458af9;
+	color: white;
+}
+.about {
+    padding: 60px 0;
+    margin-bottom: 60px
+}
+.service-item {
+    margin-bottom: 30px;
+}
+hr.small {
+    max-width: 400px;
+}
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
