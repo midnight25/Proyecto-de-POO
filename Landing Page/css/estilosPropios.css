@@ -1,0 +1,30 @@
+body {
+	padding-top: 80px; 
+}
+.ingresar{
+	text-decoration: none;
+}
+.ingresar:hover{
+	text-decoration: underline;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #1567eb;
+}
+.carousel-indicators li {
+    border-color: #1567eb;
+}
+.carousel-indicators li.active {
+    background-color: #1567eb;
+}
+.caracteristicas{
+	background: blue;
+	height: 30px;
+}
+.slider {
+	position: relative;	
+	margin-top:-20px;
+}
+.slider img {
+    width: 100%;
+}
