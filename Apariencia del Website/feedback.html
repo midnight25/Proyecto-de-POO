@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wikilinks</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   
+
+  </head>
+  <body style="background-color: #dedede">
+        <header>
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-1">
+                  <span class="sr-only">Desplegar/Ocultar Menu</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img src="img/Wikilinks1.png" style="height: 28px;">
+                </a>
+            </div>
+
+            <!--Inicia menu-->
+            <div class="collapse navbar-collapse" id="navegacion-1">
+              <form class="navbar-form form-inline navbar-left">
+                          <div class="input-group">
+                    <input type="search" class="form-control" size="38" placeholder="Buscar" autofocus>
+                  <div class="input-group-btn">
+                      <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </div>
+                      </form>
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="ingresar">
+                    <a href="#"><b><span class="glyphicon glyphicon-log-in"></span> Registrarse</b></a>
+                  </li>
+                    <li class="ingresar">
+                  <a href="#"><b><span class="glyphicon glyphicon-user"></span> Ingresar</b></a>  
+                  </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+
+
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-body">
+                 <form class="col-md-12 center-block" style="background-color: #ffffff; border-color: #000">
+                      <div>
+                        <h3 align="center">Reporte de problemas</h3>
+                      </div>
+                      <div class="form-group">
+                        nombre <input type="text" class="form-control input-lg" autofocus required>
+                      </div>
+                      <div class="form-group">
+                        correo <input type="text" class="form-control email input-lg" placeholder="Ejemplo@xxx.com" required>
+                      </div>
+                      <div class="form-group">
+                        asunto
+                        <select class="form-control input-lg" >
+                                  <option>No se puede registrar</option>
+                                  <option>Problemas al ingresar a su cuenta</option>
+                                  <option>Problema al visualizar elementos</option>
+                                  <option>otros...</option>
+                        </select>
+
+                      </div>
+                      <div>
+                        Descripcion del problema
+                        <textarea class="form-control input-lg" rows="10" cols="50">
+                        </textarea>
+                      </div>
+                      
+                   
+                 </form>
+                 <div align="right">
+                        <input type="submit"  class="btn   btn-primary" value="Enviar">
+                </div>
+                </div>
+
+
+                
+              </div>
+              
+            </div>
+           
+         </div>
+   </body>
+
+</html>
