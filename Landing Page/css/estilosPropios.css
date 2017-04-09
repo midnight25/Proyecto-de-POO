@@ -1,11 +1,18 @@
 body {
 	padding-top: 80px; 
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 .ingresar{
 	text-decoration: none;
 }
-.ingresar:hover{
-	text-decoration: underline;
+.estilosLetras{
+	color: #FFFFFF;
+}
+.estilosLetras:hover{
+	color: #CFDDE8;
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -34,19 +41,19 @@ body {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .imagenesArticulos{
-	border:5px solid #cbcbcb;
+	border:2px solid #cecece;
 }
 .textoCaracteristicas{
 	text-align: center;
 	font-family: sans-serif;
 }
 .btn-about{
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	background: rgba(51, 122, 183, 0.7);
 	color: white;
 }
 .btn-about:hover{
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	background: rgba(69, 138, 249, 0.7);
 	color: white;
 }
